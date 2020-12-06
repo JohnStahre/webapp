@@ -1,6 +1,57 @@
 /* ska avsluta här bara in 1.25 eller om det var 1.25 kvar */
 /* styla body */
+
+/* lägg in i headern för att koppla ihop */
+/* vill lägga margin och padding på alla element därför skrivs "stjärna symbolen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+ /* line-height: normal; */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #eeeeee; 
+    color: #222;
+ 
 }
-/* lägg in i headern för att koppla ihop */
+
+/*! container hjälpklasser */
+
+.container {
+ width: 80%;
+ margin: auto;
+}
+
+.card1 {
+    background-color: #222;
+    color: #fff;
+    width: 300px;
+    /* padding: 20px; */
+    /* padding: 1.5rem; */
+    margin: 20px;
+    border: 5px solid blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+/* istället för pixlar kan vi använda em eller rem som blir mer dynamisk mr W använder alltid rem för att den är mer dynamsik till root */
+/* em är relativt mot andra element men rem går mot rot */
+.card1 h2 {
+    font-size: 3rem;
+    background-color: blueviolet;
+    padding: 1rem 1.5rem;
+   
+
+}
+.card1 p{
+    font-size: 1rem;
+    margin: 1rem 1.5rem;
+
+}
+.card2 {
+    border: 3px solid #222;
+    margin: 1rem 1.5rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
