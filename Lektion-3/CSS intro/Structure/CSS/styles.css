@@ -49,9 +49,50 @@ body {
     margin: 1rem 1.5rem;
 
 }
+.card1 h2:hover {
+    background-color: gold ;
+}
+/*  kort 2 */
 .card2 {
     border: 3px solid #222;
     margin: 1rem 1.5rem;
     padding: 1.5rem;
     border-radius: 15px;
+}
+/* kort 3 */
+.card3 {
+    border: 2px dashed #114477;
+    padding: 1.5rem;
+}
+.card3 ul {
+    list-style: none;
+
+}
+.card3 a {
+    text-decoration: none;
+    color: #222;
+}
+.card3 a:hover {
+    color: yellowgreen;
+
+}
+.card3 li {
+    padding: 0.5rem;
+}
+.card3 li:nth-child(odd) {
+    background-color: rgb(172, 159, 159);
+}
+.links {
+    margin-top: 2rem;
+
+}
+.link {
+    border: 1px solid gray;
+    width: 300 px;
+    height: 50px;
+    margin: 1 rem;
+    display: inline-block;
+}
+.knapp {
+    padding: 0.7rem 1.5rem;
 }
