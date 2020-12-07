@@ -23,7 +23,24 @@ body {
  width: 80%;
  margin: auto;
 }
+/* klasserna nedan med btn kan återanvändas, och stylas olika, vi vill också skriva färre rader kod för att göra det effektivare */
+.btn {
+    padding: 0.7rem 1.5rem;
+    border-radius: 7px;
+    border:none;
 
+    cursor: pointer;
+    outline:none;
+    transition: all 0.2s ease;  
+}
+.btn-Johns {
+    background-color: rgb(171, 103, 219);
+    color: gold;
+}
+.btn-primary{
+    background-color: rgb(43, 44, 42);
+    color: silver;
+}
 .card1 {
     background-color: #222;
     color: #fff;
@@ -93,6 +110,19 @@ body {
     margin: 1 rem;
     display: inline-block;
 }
-.knapp {
+.Johns-knapp {
     padding: 0.7rem 1.5rem;
+    border-radius: 7px;
+    border:none;
+    background-color: rgb(171, 103, 219);
+    color: gold;
+    cursor: pointer;
+    outline:none;
+    transition: all 0.2s ease;
+}
+.Johns-knapp:hover {
+    background-color: #141615;
+}
+.Johns-knapp:active {
+    background-color: lime;
 }
