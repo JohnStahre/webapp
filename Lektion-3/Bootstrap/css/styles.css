@@ -1,0 +1,17 @@
+@import 'color.css';
+
+
+
+.bg-primary {
+    background: grey !important;
+}
+.box {
+    background-color: var(--bg-primary);
+    border:  1px solid #000;
+    border-radius: 50%;
+
+    width: 150px;
+    height: 150px;
+    
+}
+    
