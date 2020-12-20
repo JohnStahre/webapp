@@ -67,7 +67,7 @@ a:hover {
   .navbar {
       padding: 0.5rem 1rem;
     }
-    .navbar .container {
+    .navbar .container, .top-nav .container {
       display: flex;
       justify-content: space-between;
     }
